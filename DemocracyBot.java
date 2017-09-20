@@ -12,7 +12,12 @@ public class DemocracyBot extends Robot
     }
     
     public void fixBallots() {
-        
+        move();
+        if(!nextToABeeper()){
+            
+        }
+        move();
+        move();
     }
    
 }

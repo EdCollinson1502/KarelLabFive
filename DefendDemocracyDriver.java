@@ -18,8 +18,8 @@ public class DefendDemocracyDriver implements Directions
     static {
         World.reset(); 
         World.readWorld("worlds/hangingchad.kwld"); 
-        World.setBeeperColor(Color.black);
-        World.setStreetColor(Color.gray);
+        World.setBeeperColor(Color.magenta);
+        World.setStreetColor(Color.cyan);
         World.setNeutroniumColor(Color.black);
         World.setDelay(10);  
         World.setVisible(true);

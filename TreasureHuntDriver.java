@@ -34,10 +34,10 @@ public class TreasureHuntDriver implements Directions
             World.readWorld("worlds/treasure3.kwld");
         }
         //World.readWorld("worlds/fig6-27.kwld"); 
-        World.setBeeperColor(Color.black);
-        World.setStreetColor(Color.gray);
-        World.setNeutroniumColor(Color.black);
-        World.setDelay(10);  
+        World.setBeeperColor(Color.orange);
+        World.setStreetColor(Color.blue);
+        World.setNeutroniumColor(Color.green);
+        World.setDelay(1);  
         World.setVisible(true);
     }
 }
